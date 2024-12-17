@@ -9,3 +9,9 @@ variable "namespace" {
   type        = string
   default     = ""
 }
+
+variable "values_yaml" {
+  description = "Please provide a vaules_yaml"
+  type        = string
+  default     = ""
+}
