@@ -19,7 +19,7 @@ variable "values_yaml" {
 
 variable "repository" {
   type        = string
-  description = "- (Required) Path for the Chart."
+  description = "- (Required) repository for the Chart."
 }
 
 variable "chart" {
