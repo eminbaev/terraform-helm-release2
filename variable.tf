@@ -10,6 +10,11 @@ variable "namespace" {
   default     = ""
 }
 
+variable "deployment_path" {
+  type        = string
+  description = "- (Required) Path for the Chart."
+}
+
 variable "values_yaml" {
   description = "Please provide a vaules_yaml"
   type        = string
