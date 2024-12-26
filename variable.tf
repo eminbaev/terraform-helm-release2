@@ -15,3 +15,19 @@ variable "values_yaml" {
   type        = string
   default     = ""
 }
+
+variable "repository" {
+  type        = string
+  description = "- (Required) Path for the Chart."
+}
+
+variable "chart" {
+  type        = string
+  description = "- (Required) Path for the Chart."
+}
+
+variable "chart_version" {
+  type        = string
+  description = "Version information"
+  default     = ""
+}
